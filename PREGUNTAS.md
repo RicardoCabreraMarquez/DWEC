@@ -1,5 +1,5 @@
 # PREGUNTAS 
 
-##### 1. ¿Qué es .gitignore?
+#### 1. ¿Qué es .gitignore?
 
-> HOLA MANOLON
+- HOLA MANOLON
