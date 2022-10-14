@@ -2,4 +2,4 @@
 
 > Tarea AVANZADA.
 
-### 👨‍🏫 Definicion 👨‍🏫
+### 👨‍🏫 Definicion
