@@ -1,0 +1,46 @@
+public class Vehiculo {
+
+    private String tipoVehiculo;
+    private String color;
+    private int numeroSerie;
+
+    Coche () {
+        tipoVehiculo = "";
+        color = "";
+        numeroSerie = 0;
+    }
+
+    Coche (String tipoVehiculo, String color, int numeroSerie) {
+        this.tipoVehiculo = tipoVehiculo;
+        this.color = color;
+        this.numeroSerie = numeroSerie;
+    }
+	
+    public String getTipoVehiculo() {
+        return tipoVehiculo;
+    }
+
+    public void setTipoVehiculo() {
+        this.tipoVehiculo = tipoVehiculo;
+    }
+
+     public String getColor() {
+        return color;
+    }
+
+    public void setColor() {
+        this.color = color;
+    }
+
+     public int getNumeroSerie() {
+        return numeroSerie;
+    }
+
+    public void setNumeroSerie() {
+        this.numeroSerie = numeroSerie;
+    }
+
+    public String toString() {
+        return "[" + tipoVehiculo + "," + color + "," + numeroSerie +"]";
+    }
+}

@@ -1,0 +1,18 @@
+class Vehiculo {
+    public void velocidadMaxima(){
+         System.out.println("120 km");
+        
+    }
+}
+
+public class Avion extends Vehiculo {
+    public void velocidadMaxima(){
+        System.out.println("920 km");
+    }
+}
+
+public class Barco extends Vehiculo {
+    public void velocidadMaxima(){
+        System.out.println("20 nudos");
+    }
+}

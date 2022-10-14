@@ -40,9 +40,28 @@ tipos durante la ejecución del programa.
 
 ### UML 📊
 
+
+
 ![UML](Imagenes/UML1.png)
+
+
 
 ![UML](Imagenes/UML2.png)
 
 ### Pruebas 👨🏻‍💻
 
+
+
+![Java](Imagenes/Prueba1.JPG)
+
+
+
+![Java](Imagenes/Prueba2.JPG)
+
+
+
+![Java](Imagenes/Prueba3.JPG)
+
+
+
+![Java](Imagenes/Prueba4.JPG)
