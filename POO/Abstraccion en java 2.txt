@@ -1,0 +1,10 @@
+public class Coche extends Vehiculo {
+
+    private int km;
+    private String marca;
+
+    public void arrancar() {}
+
+    public void frenar() {}
+    
+}

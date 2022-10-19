@@ -51,17 +51,26 @@ tipos durante la ejecución del programa.
 ### Pruebas 👨🏻‍💻
 
 
+- #### Encapsulacion.
 
 ![Java](Imagenes/Prueba1.JPG)
 
 
+- #### Herencia.
 
 ![Java](Imagenes/Prueba2.JPG)
 
 
+- #### Abstraccion 1.
 
 ![Java](Imagenes/Prueba3.JPG)
 
 
+- #### Abstraccion 2.
+
+![Java](Imagenes/Prueba5.JPG)
+
+
+- #### Polimorfismo.
 
 ![Java](Imagenes/Prueba4.JPG)
