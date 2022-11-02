@@ -17,6 +17,6 @@ function generarDatos(altura, anchura){
     tablas.innerHTML += generarTabla;
 }
 
-generarDatos(3,3);
+generarDatos(12, 8);
 
 
