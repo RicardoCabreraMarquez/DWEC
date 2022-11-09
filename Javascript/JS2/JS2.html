@@ -6,8 +6,50 @@
         <style>
             form input[type="search"]{
                 
-                width: 1800px;
+                width: 1820px;
+                height: 30px;
+                border-radius: 10px;
+                border: 2px solid blue;
+                font-size: 17px;
             }
+
+            form input[type="submit"]{
+                height: 30px;
+                border-radius: 10px;
+                border: 2px solid blue;
+                font-size: 17px;
+            }
+
+            form input[type="submit"]:hover{
+                height: 30px;
+                border-radius: 10px;
+                border: 2px solid blue;
+                background-color: aqua;
+                font-size: 17px;
+            }
+
+            table {
+                margin: 0 auto;
+                margin-top: 20px;
+                border: 1px solid grey;
+                border-radius: 15px;
+            }
+
+            td {
+                width: 930px;
+                height: 30px;
+                font-size: 20px;
+                border-radius: 15px;
+            }
+            
+            #principal{
+                text-align: center;
+                background-color: gainsboro;
+                font-weight: bold;
+            }
+
+            
+
         </style>
     </head>
     <body>
@@ -19,5 +61,9 @@
                 <input type="submit" value="Buscar">
             </form>
         </div>
+        <table id="tabla">
+            
+        </table>
     </body>
+    <script src="tabla.js" type="text/Javascript"></script>
 </html>
