@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "protractor": "^7.0.0"
+  },
+  "name": "js2",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "main": "tabla.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Cabrera",
+  "license": "ISC",
+  "description": ""
+}
