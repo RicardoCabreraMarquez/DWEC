@@ -69,8 +69,8 @@ var paises = [
         "capital" : "Varsovia"
     },
     {
-        "pais" : "Portugal",
-        "capital" : "Lisboa"
+        "pais" : "Rusia",
+        "capital" : "Moscú"
     }
 ];
 
