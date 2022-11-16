@@ -5,30 +5,34 @@
 ### Analisis del problema 👨‍🏫
 
 
-##### He buscado sobre las siguiente definiciones o terminos. 
+##### He buscado sobre las siguiente definiciones o terminos: 
 
-#### JSON = El script es un lenguaje de programación que ejecuta diversas funciones en el interior de un programa de computador.
+### JSON: 
++ JSON es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, 
+aunque, debido a su amplia adopción como alternativa a XML, se considera un formato independiente del lenguaje.
 <br></br>
 
-##### 2. He buscado como funciona el metodo ‘document.write(variable);’.
+### Sintaxis JSON:
 
-###### El document.write()método escribe una cadena de texto en un flujo de documentos abierto por document.open().
-###### **SINTAXIS** = write(markup)
-###### **PARÁMETROS** = Una cadena que contiene el texto que se va a escribir en el documento.
-<br></br>
+    [
+      {
+        "nombre": "Pepito Conejo",
+        "edad": 25,
+        "carnet de conducir": true
+      },
+      {
+        "nombre": "Ana Barberá",
+        "edad": 90,
+        "carnet de conducir": false
+      }
+    ]
 
-##### Dado el segundo enunciado:
 
-###### Se deberá representar en un HTML todos los datos que se generen en el método previamente implementado para rellenar los datos de una tabla HTML.
-<br></br>
-
-##### 1. Para insertar los datos a una se hace mediante el metodo innerHTML, he buscado su funcionamiento:
-###### InnerHTML  es una propiedad que nos permite leer un dato o asignarlo al contenido de un div o bien, del mismo control. Nos facilita la asignación de valores a controles.
 <br></br>
 
 ### Diseño de la solución 📊
 
-He buscado el funcionamiento de los metodos que no sabia su funcionamiento para poder impletarlo en el siguiente fase.
+![UML](recursos/UML.png)
 <br></br>
 
 ### Implementacion ⚒
