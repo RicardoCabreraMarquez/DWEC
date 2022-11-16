@@ -1,11 +1,14 @@
 const { element } = require("protractor");
 
 describe('Protractor Demo App', function() {
-    it('should have a title', function() {
+    it('Test 1', function() {
 
+      //Paso 1
         
       browser.get('https://www.google.es/');
+
+      const tabla = element(by.model('//tr')).sendKeys(a);
   
-      expect(element()).toEqual(1);
+      expect(tabla()).toEqual(19);
     });
   });
