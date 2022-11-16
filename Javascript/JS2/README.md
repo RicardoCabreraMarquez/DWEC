@@ -32,30 +32,16 @@ aunque, debido a su amplia adopción como alternativa a XML, se considera un for
 
 ### Diseño de la solución 📊
 
-![UML](recursos/UML.png)
+![UML](recursos/UML.jpg)
 <br></br>
 
 ### Implementacion ⚒
 
-He realizado los pasos anteriores.
+He realizado los pasos de los enunciado y del video para hacer el ejercicio avanzado.
 <br></br>
 
 ### Pruebas 👨🏻‍💻
 
-##### Criterio 1:
-###### Dado que tengo un método generaDatos(5, 4) Cuando pongo los valores fila 5 y columna 4 Entonces me aparece en el html una tabla con 5 filas y 4 columnas con datos randoms.
+##### Prueba del ejercicio:
 
-![GIF](recursos/gif1.gif)
-<br></br>
-
-##### Criterio 2:
-###### Dado que tengo un método generaDatos(4, 5) Cuando pongo los valores fila 4 y columna 5 Entonces me aparece en el html una tabla con 4 filas y 5 columnas con datos randoms.
-
-![GIF](recursos/gif2.gif)
-<br></br>
-
-##### Criterio 3:
-###### Dado que tengo un método generaDatos(12, 8) Cuando pongo los valores fila 12 y columna 8 Entonces me aparece en el html una tabla con 12 filas y 8 columnas con datos randoms.
-
-![GIF](recursos/gif3.gif)
-<br></br>
+![GIF](recursos/prueba.gif)
