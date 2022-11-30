@@ -35,10 +35,17 @@
                 width: 10px;
                 height: 30px;
                 margin-top: 0px;
-                margin-right: 40px;
+                margin-right: 10px;
                 margin-left: 10px;
                 background-color: #DCDCDC;
                 transition: 0.5s;
+            }
+
+            .cuadrado{
+                float: left;
+                width: 28px;
+                height: 28px;
+                border: 1px solid black;
             }
 
             .b-horizontal:hover, .b-vertical:hover{
@@ -49,25 +56,29 @@
     <body>
         <div class="centrar">
             <div class="circulo"></div>
-            <div onclick="pintar()" class="b-horizontal" id="obj1"></div>
+            <div onclick="pintar();" class="b-horizontal" id="obj1"></div>
             <div class="circulo"></div>
-            <div class="b-horizontal" id="obj2"></div>
+            <div onclick="pintar();" class="b-horizontal" id="obj2"></div>
             <div class="circulo"></div><br>
-            <div class="b-vertical" id="obj3"></div>
-            <div class="b-vertical" id="obj4"></div>
-            <div class="b-vertical" id="obj5"></div><br><br>
+            <div onclick="pintar();" class="b-vertical" id="obj3"></div>
+            <div class="cuadrado"></div>
+            <div onclick="pintar();" class="b-vertical" id="obj4"></div>
+            <div class="cuadrado"></div>
+            <div onclick="pintar();" class="b-vertical" id="obj5"></div><br><br>
             <div class="circulo"></div>
-            <div class="b-horizontal" id="obj6"></div>
+            <div onclick="pintar();" class="b-horizontal" id="obj6"></div>
             <div class="circulo"></div>
-            <div class="b-horizontal" id="obj7"></div>
+            <div onclick="pintar();" class="b-horizontal" id="obj7"></div>
             <div class="circulo"></div><br>
-            <div class="b-vertical" id="obj8"></div>
-            <div class="b-vertical" id="obj9"></div>
-            <div class="b-vertical" id="obj10"></div><br><br>
+            <div onclick="pintar();" class="b-vertical" id="obj8"></div>
+            <div class="cuadrado"></div>
+            <div onclick="pintar();" class="b-vertical" id="obj9"></div>
+            <div class="cuadrado"></div>
+            <div onclick="pintar();" class="b-vertical" id="obj10"></div><br><br>
             <div class="circulo"></div>
-            <div class="b-horizontal" id="obj11"></div>
+            <div onclick="pintar();" class="b-horizontal" id="obj11"></div>
             <div class="circulo"></div>
-            <div class="b-horizontal" id="obj12"></div>
+            <div onclick="pintar();" class="b-horizontal" id="obj12"></div>
             <div class="circulo"></div>
         </div>
     </body>
