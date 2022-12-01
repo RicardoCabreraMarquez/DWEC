@@ -1,86 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Ejercicio JS3-Avanzado</title>
-        <meta charset="UTF-8">
-        <style>
-            body{
-                display: flex;
-                justify-content: center;
-            }
 
-            .centrar{
-                margin-top: 350px;
-            }
+<head>
+    <meta charset="UTF-8">
+    <title>Timbiriche</title>
+    <style>
+        button{
+            width: 90px;
+            height: 40px;
+            font-size: 14px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 15px;
+            transition: all 0.5s;
+        }
 
-            .circulo{
-                width: 10px;
-                height: 10px;
-                background-color: black;
-                float: left;
-                margin-bottom: 0px;
-                margin-right: 10px;
-                margin-left: 10px;
-            }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
 
-            .b-horizontal{
-                height: 10px;
-                width: 30px;
-                background-color: #DCDCDC;
-                float: left;
-            }
+        h1{
+            font-size: 30px;
+        }
 
-            .b-vertical{
-                float: left;
-                width: 10px;
-                height: 30px;
-                margin-top: 0px;
-                margin-right: 10px;
-                margin-left: 10px;
-                background-color: #DCDCDC;
-                transition: 0.5s;
-            }
+        p{
+            font-size: 20px;
+            margin-left: 220px;
+        }
 
-            .cuadrado{
-                float: left;
-                width: 28px;
-                height: 28px;
-                border: 1px solid black;
-            }
+        .boton{
+            margin-left: 180px;
+        }
+    
+    </style>
+</head>
 
-            .b-horizontal:hover, .b-vertical:hover{
-                background-color: grey;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="centrar">
-            <div class="circulo"></div>
-            <div onclick="pintar();" class="b-horizontal" id="obj1"></div>
-            <div class="circulo"></div>
-            <div onclick="pintar();" class="b-horizontal" id="obj2"></div>
-            <div class="circulo"></div><br>
-            <div onclick="pintar();" class="b-vertical" id="obj3"></div>
-            <div class="cuadrado"></div>
-            <div onclick="pintar();" class="b-vertical" id="obj4"></div>
-            <div class="cuadrado"></div>
-            <div onclick="pintar();" class="b-vertical" id="obj5"></div><br><br>
-            <div class="circulo"></div>
-            <div onclick="pintar();" class="b-horizontal" id="obj6"></div>
-            <div class="circulo"></div>
-            <div onclick="pintar();" class="b-horizontal" id="obj7"></div>
-            <div class="circulo"></div><br>
-            <div onclick="pintar();" class="b-vertical" id="obj8"></div>
-            <div class="cuadrado"></div>
-            <div onclick="pintar();" class="b-vertical" id="obj9"></div>
-            <div class="cuadrado"></div>
-            <div onclick="pintar();" class="b-vertical" id="obj10"></div><br><br>
-            <div class="circulo"></div>
-            <div onclick="pintar();" class="b-horizontal" id="obj11"></div>
-            <div class="circulo"></div>
-            <div onclick="pintar();" class="b-horizontal" id="obj12"></div>
-            <div class="circulo"></div>
-        </div>
-    </body>
-    <script src="JS3.js" type="text/Javascript"></script>
+<body>
+
+   
+    
+    <script src="JS3.js"></script>
+
+    <div class="boton">
+        <button id="Juego" onclick="startgame()">Comenzar</button>
+    </div>
+
+    <h1>PARTIDAS GANADAS JUGADOR 1:</h1><p id="jugador1">0</p>
+    <h1>PARTIDAS GANADAS JUGADOR 2:</h1><p id="jugador2">0</p>
+    
+
+
+</body>
+
 </html>
