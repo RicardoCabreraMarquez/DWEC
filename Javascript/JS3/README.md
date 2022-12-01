@@ -5,43 +5,62 @@
 ### Analisis del problema 👨‍🏫
 
 
-##### He buscado sobre las siguiente definiciones o terminos: 
+#### He buscado el funcionamiento de los distintos metodos y su sintaxis: 
 
-### JSON: 
-+ JSON es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, 
-aunque, debido a su amplia adopción como alternativa a XML, se considera un formato independiente del lenguaje.
+#### SetTimeout(): 
++ El método setTimeout() permite ejecutar un fragmento de código, una vez transcurrido un tiempo determinado. Puedes pensar en el método como una forma de establecer un temporizador para ejecutar código de JavaScript en un momento determinado.
 <br></br>
 
-### Sintaxis JSON:
+### Sintaxis SetTimeout:
 
-    [
-      {
-        "nombre": "Pepito Conejo",
-        "edad": 25,
-        "carnet de conducir": true
-      },
-      {
-        "nombre": "Ana Barberá",
-        "edad": 90,
-        "carnet de conducir": false
-      }
-    ]
+    
+    setTimeout(function(){
+        console.log("Hola Mundo");
+    }, 2000);
 
-
+    console.log("setTimeout() Ejemplo...");
+    
 <br></br>
+
+#### onclick: 
++ El evento onclick en JavaScript te permite como programador, ejecutar una función cuando se le da clic a un elemento.
+<br></br>
+
+### Sintaxis onclick:
+
+    
+    <button onclick="miFunc()">Haz click</button>
+
+    <script>
+        function miFunc() {
+    alert('Se ha dado clic al botón!');
+    }
+    </script>
+    
+<br></br>
+
+
 
 ### Diseño de la solución 📊
 
-![UML](recursos/UML.jpg)
+![UML](recursos/UML.png)
 <br></br>
 
 ### Implementacion ⚒
 
-He realizado los pasos de los enunciado y del video para hacer el ejercicio avanzado.
+He realizado el juego timbiriche.
 <br></br>
 
 ### Pruebas 👨🏻‍💻
 
-##### Prueba del ejercicio:
+##### Prueba jugador1 ganador:
 
-![GIF](recursos/prueba.gif)
+![GIF](recursos/prueba1.gif)
+
+##### Prueba jugador2 ganador:
+
+![GIF](recursos/prueba2.gif)
+
+##### Prueba Empate:
+
+![GIF](recursos/prueba3.gif)
