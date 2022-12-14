@@ -14,22 +14,36 @@ function buscar(){
   var weight = document.getElementById('weight');
   var version = document.getElementById('version');
   var type = document.getElementById('type');
+  var error = document.getElementById('error');
 
   xhr.addEventListener("readystatechange", function() {
-    if(this.readyState === 4) {
-      response = JSON.parse(this.responseText);
-      sprite.innerHTML = `<img src="${response.sprites.front_default}">`;
-      nombre.innerHTML = response.name;
-      height.innerHTML = response.height;
-      weight.innerHTML = response.weight;
-      type.innerHTML = response.types[0].type.name;
-      version.innerHTML = "";
-      for(let i = 0; i<response.game_indices.length;i++){
-        console.log(response.game_indices[i].version.name)
-         version.innerHTML += `${response.game_indices[i].version.name}<br>`;
+    try{
+      if(this.readyState === 4) {
+        error.innerHTML = ``;
+        response = JSON.parse(this.responseText);
+        sprite.innerHTML = `<img src="${response.sprites.front_default}">`;
+        nombre.innerHTML = response.name;
+        height.innerHTML = response.height;
+        weight.innerHTML = response.weight;
+       
+        version.innerHTML = "";
+        for(let i = 0; i<response.game_indices.length;i++){
+          version.innerHTML += `${response.game_indices[i].version.name}<br>`;
+        }
+
+        type.innerHTML = "";
+        for (let i = 0; i < response.types.length; i++) {
+          type.innerHTML += `${response.types[i].type.name}<br>`;
+        }
       }
-      
-      
+    }catch(err){
+      nombre.innerHTML = "";
+      sprite.innerHTML = "";
+      height.innerHTML = "";
+      weight.innerHTML = "";
+      version.innerHTML = "";
+      type.innerHTML = "";
+      error.innerHTML = `<td colspan="6"> No se encuentra el pokemon</td>`;
     }
   });
   
