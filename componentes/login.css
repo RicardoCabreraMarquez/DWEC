@@ -1,0 +1,63 @@
+body {
+    background-color: grey;
+}
+
+.login {
+    background-color: white;
+    height: 350px;
+    width: 450px;
+}
+
+h2{
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+form input[type="email"]{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    border: 0px;
+    border-bottom: 1px black solid;
+}
+
+form input[type="password"]{
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+    border: 0px;
+    border-bottom: 1px black solid;
+}
+
+form input[type="email"]:focus {
+    outline: none;
+    border-bottom: 1px black solid;
+}
+
+form input[type="password"]:focus {
+    outline: none;
+    border-bottom: 1px black solid;
+}
+
+button{
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 0px;
+    border: 0px;
+    background-color: grey;
+}
+
+h3{
+    font-family:  Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    color: #BA55D3;
+}
