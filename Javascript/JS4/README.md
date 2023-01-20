@@ -5,37 +5,11 @@
 ### Analisis del problema 👨‍🏫
 
 
-#### He buscado el funcionamiento de los distintos metodos y su sintaxis: 
+#### He buscado la definicion de xhr: 
 
-#### SetTimeout(): 
-+ El método setTimeout() permite ejecutar un fragmento de código, una vez transcurrido un tiempo determinado. Puedes pensar en el método como una forma de establecer un temporizador para ejecutar código de JavaScript en un momento determinado.
-<br></br>
+##### Es una interfaz empleada para realizar peticiones HTTP y HTTPS a servidores Web. Para los datos transferidos se usa cualquier codificación basada en texto, incluyendo: texto plano, XML, JSON, HTML y codificaciones particulares específicas. La interfaz se implementa como una clase de la que una aplicación cliente puede generar tantas instancias como necesite para manejar el diálogo con el servidor.
 
-### Sintaxis SetTimeout:
-
-    
-    setTimeout(function(){
-        console.log("Hola Mundo");
-    }, 2000);
-
-    console.log("setTimeout() Ejemplo...");
-    
-<br></br>
-
-#### onclick: 
-+ El evento onclick en JavaScript te permite como programador, ejecutar una función cuando se le da clic a un elemento.
-<br></br>
-
-### Sintaxis onclick:
-
-    
-    <button onclick="miFunc()">Haz click</button>
-
-    <script>
-        function miFunc() {
-    alert('Se ha dado clic al botón!');
-    }
-    </script>
+##### El uso más popular, si bien no el único, de esta interfaz es proporcionar contenido dinámico y actualizaciones asíncronas en páginas web mediante tecnologías construidas sobre ella como por ejemplo AJAX.
     
 <br></br>
 
@@ -48,19 +22,12 @@
 
 ### Implementacion ⚒
 
-He realizado el juego timbiriche.
+He realizado el buscador de pokemon.
 <br></br>
 
 ### Pruebas 👨🏻‍💻
 
-##### Prueba jugador1 ganador:
+##### Prueba funcionamiento del buscador:
 
 ![GIF](recursos/prueba1.gif)
 
-##### Prueba jugador2 ganador:
-
-![GIF](recursos/prueba2.gif)
-
-##### Prueba Empate:
-
-![GIF](recursos/prueba3.gif)
