@@ -39,6 +39,6 @@ He realizado el login y register de la pagina.
 
 ### Pruebas 👨🏻‍💻
 
-##### Prueba funcionamiento del buscador:
+##### Prueba funcionamiento del login y register:
 
 ![GIF](recursos/prueba1.gif)
