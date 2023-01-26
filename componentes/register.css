@@ -1,4 +1,4 @@
-body {
+.body {
     background-color: grey;
 }
 
@@ -44,10 +44,7 @@ form input[type="password"]{
     border-bottom: 1px black solid;
 }
 
-form input[type="text"]:focus {
-    outline: none;
-    border-bottom: 1px black solid;
-}
+
 
 form input[type="email"]:focus {
     outline: none;
