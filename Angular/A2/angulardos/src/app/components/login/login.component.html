@@ -1,0 +1,17 @@
+<div class="login">
+  <h2>Login</h2>
+  <form action="#">
+
+      <div class="container">
+
+        <input type="email" placeholder="Email*" name="uname" pattern="[a-z._%+-]+@[a-z.-]+\.[a-z]{1,4}$" required><br>
+
+        <input type="password" placeholder="Password*" name="psw" required><br>
+
+        <button type="submit">LOG IN</button>
+      </div>
+
+  </form>
+
+  <a [routerLink]="['/app-registerpages']"><h3>Create new account?</h3></a>
+</div>
