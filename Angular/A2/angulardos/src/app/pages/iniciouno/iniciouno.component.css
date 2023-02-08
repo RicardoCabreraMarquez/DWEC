@@ -1,0 +1,9 @@
+.centrar {
+  display:  flex;
+  justify-content: center;
+  margin-top:  300px;
+}
+
+.centrar h1{
+  font-size:  80px;
+}
