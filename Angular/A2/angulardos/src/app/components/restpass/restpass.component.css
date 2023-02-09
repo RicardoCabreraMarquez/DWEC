@@ -2,10 +2,10 @@ formulario {
   background-color: grey;
 }
 
-.login {
-  margin-top: 250px;
+.resspass {
+  margin-top: 300px;
   background-color: white;
-  height: 350px;
+  height: 280px;
   width: 450px;
   border: 1px solid gray;
 }
@@ -23,27 +23,14 @@ form{
 }
 
 form input[type="email"]{
-  width: 400px;
+  width: 392px;
   height: 30px;
-  margin-top: 20px;
-  border: 0px;
-  border-bottom: 1px black solid;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
-form input[type="password"]{
-  margin-top: 10px;
-  width: 400px;
-  height: 30px;
-  border: 0px;
-  border-bottom: 1px black solid;
-}
 
 form input[type="email"]:focus {
-  outline: none;
-  border-bottom: 1px black solid;
-}
-
-form input[type="password"]:focus {
   outline: none;
   border-bottom: 1px black solid;
 }
@@ -57,13 +44,9 @@ button{
   background-color: grey;
 }
 
-h3{
-  font-family:  Arial, sans-serif;
-  font-size: 15px;
-  margin-left: 20px;
-  color: #BA55D3;
-}
-
-a{
-  text-decoration: none;
+h3 {
+  color: grey;
+  margin-bottom: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
 }

@@ -9,6 +9,10 @@ import { LoginpagesComponent } from './pages/loginpages/loginpages.component';
 import { RegisterpagesComponent } from './pages/registerpages/registerpages.component';
 import { NavbarunoComponent } from './components/navbaruno/navbaruno.component';
 import { IniciounoComponent } from './pages/iniciouno/iniciouno.component';
+import { NavbardosComponent } from './components/navbardos/navbardos.component';
+import { IniciodosComponent } from './pages/iniciodos/iniciodos.component';
+import { RestpassComponent } from './components/restpass/restpass.component';
+import { RestpasspageComponent } from './pages/restpasspage/restpasspage.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { IniciounoComponent } from './pages/iniciouno/iniciouno.component';
     LoginpagesComponent,
     RegisterpagesComponent,
     NavbarunoComponent,
-    IniciounoComponent
+    IniciounoComponent,
+    NavbardosComponent,
+    IniciodosComponent,
+    RestpassComponent,
+    RestpasspageComponent
   ],
   imports: [
     BrowserModule,
