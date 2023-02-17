@@ -3,6 +3,7 @@
 }
 
 .register {
+  margin-top: 200px;
   background-color: white;
   height: 400px;
   width: 450px;
@@ -71,4 +72,8 @@ h3{
   font-size: 15px;
   margin-left: 20px;
   color: #BA55D3;
+}
+
+a {
+ text-decoration: none;
 }
