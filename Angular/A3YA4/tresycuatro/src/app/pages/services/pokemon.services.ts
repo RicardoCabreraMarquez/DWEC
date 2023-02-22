@@ -13,7 +13,9 @@ export class PokemonService {
     this.url = Global.url;
   }
 
+
   getPokemons():Observable<any>{
-    return this._http.get(this.url+'/')
+    return this._http.get(this.url+'type/fire')
   }
 }
+

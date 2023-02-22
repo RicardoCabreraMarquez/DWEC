@@ -5,7 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './inicio-pokemon.component.html',
   styleUrls: ['./inicio-pokemon.component.css']
 })
-export class PokemonListComponent  implements OnInit{
+export class PokemonListComponent  implements OnInit {
 
     @Input() public name: String;
 
@@ -13,9 +13,9 @@ export class PokemonListComponent  implements OnInit{
       this.name = "";
     }
     ngOnInit(): void {
-      this._PokemonService.getPokemons().subscribe(
-
-      )
+      console.log('hola');
     }
+
+
 }
 
