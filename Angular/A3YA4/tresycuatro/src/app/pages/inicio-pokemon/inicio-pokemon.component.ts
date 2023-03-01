@@ -7,15 +7,29 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PokemonListComponent  implements OnInit {
 
+
+
     @Input() public name: String;
 
     constructor() {
       this.name = "";
+
     }
+
     ngOnInit(): void {
-      console.log('hola');
+      //TODO Añadir llamada a la peticion que se muestra en el video
+
+    }
+
+    elegirPokemon(event: any) {
+      console.log(event.target.value);
+
+
     }
 
 
-}
+};
+
+
+
 
