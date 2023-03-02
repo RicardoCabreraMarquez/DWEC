@@ -3,11 +3,11 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": "e4b04a49-716d-4e64-8627-59a26819f743"
+    "analytics": "cffa35f7-8e45-46e3-aa93-e116ca96a165"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "tresycuatro": {
+    "AN1": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tresycuatro",
+            "outputPath": "dist/an1",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tresycuatro:build:production"
+              "browserTarget": "AN1:build:production"
             },
             "development": {
-              "browserTarget": "tresycuatro:build:development"
+              "browserTarget": "AN1:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tresycuatro:build"
+            "browserTarget": "AN1:build"
           }
         },
         "test": {

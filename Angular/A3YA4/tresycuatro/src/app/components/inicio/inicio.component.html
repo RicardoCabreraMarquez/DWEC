@@ -1,0 +1,16 @@
+
+
+  <p>Selecciona el tipo de pokemon:</p>
+
+  <div class="centrar">
+    <select (change)="changePokemons($event)">
+      <option id="option3" value="fire" selected>FUEGO</option>
+      <option id="option2" value="water">AGUA</option>
+      <option id="option1" value="grass">PLANTA</option>
+    </select>
+  </div>
+
+  <div class="lista" *ngFor="let index of items" class="lista">
+    <a href="{{index.pokemon.url}}">{{index.pokemon.name}}</a>
+  </div>
+

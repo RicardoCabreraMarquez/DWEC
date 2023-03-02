@@ -1,18 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-import { PokemonListComponent } from './pages/inicio-pokemon/inicio-pokemon.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PokemonListComponent
+    InicioComponent,
+    InicioPageComponent,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
